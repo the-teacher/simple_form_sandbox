@@ -1,24 +1,9 @@
+# Simple Form Sandbox
+
 ## README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Configurate Simple Form
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rails generate simple_form:install
+```
