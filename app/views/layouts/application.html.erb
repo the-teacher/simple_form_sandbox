@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class='ptz--reset'>
+<html>
   <head>
     <title>SimpleFormSandbox</title>
     <%= csrf_meta_tags %>
@@ -10,7 +10,9 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class='ma w800 p20'>
+      <%= yield %>
+    </div>
   </body>
 
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>

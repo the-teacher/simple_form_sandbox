@@ -1,0 +1,12 @@
+.fs15.mb50= link_to raw('&larr; Index'), root_path
+
+.mb70
+  .fs25.mb30 User Info
+  .fs20= @user.name
+
+.fs25.mb40 Comments
+
+- @user.comments.each do |comment|
+  .mb50.fs18.lh130
+    .mb15.b= comment.contacts
+    .mb15= comment.content

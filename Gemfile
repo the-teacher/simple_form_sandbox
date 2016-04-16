@@ -17,7 +17,7 @@ gem 'slim-rails'
 gem 'simple_form'
 
 gem 'ffaker'
-gem 'protozaur'
+gem 'protozaur', github: 'the-teacher/protozaur'
 
 group :development, :test do
   gem 'byebug'
