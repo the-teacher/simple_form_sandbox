@@ -12,9 +12,12 @@
 
     .mb30
       = f.input :name,
+        error: false,
         label_html: { class: 'block fs15 mb10' },
         error_html: { class: 'block fs15 mt10 mb10' },
         input_html: { class: 'ptz--input pts--size-15 w300'}
+
+      .error.fs15.mt10.mb10= @user.errors[:name].first
 
     div
       = f.button :submit, 'Update User Data', class: 'ptz--btn ptz--size-15'
