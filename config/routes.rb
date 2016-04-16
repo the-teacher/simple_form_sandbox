@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   # mount ActionCable.server => '/cable'
 
   root 'welcome#index'
+
+  resources :users
 end

@@ -1,1 +1,9 @@
-h3 Hello From Rails
+.ma.w800.p20
+
+  .fs25.mb50 Users List
+
+  - @users.each do |user|
+    .mb25.fs18
+      | &mdash;
+      '
+      = link_to user.name, user

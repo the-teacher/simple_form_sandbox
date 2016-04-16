@@ -17,6 +17,7 @@ gem 'slim-rails'
 gem 'simple_form'
 
 gem 'ffaker'
+gem 'protozaur'
 
 group :development, :test do
   gem 'byebug'
