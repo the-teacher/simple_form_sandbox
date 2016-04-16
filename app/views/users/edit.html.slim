@@ -1,0 +1,21 @@
+.mb50
+  .fs15.mb20= link_to raw('&larr; Index'), root_path
+  .fs15= link_to raw('&larr; Show this User'), @user
+
+.mb70
+  = simple_form_for @user do |f|
+    .mb30
+      = f.input :login,
+        label_html: { class: 'block fs15 mb10' },
+        error_html: { class: 'block fs15 mt10 mb10' },
+        input_html: { class: 'ptz--input pts--size-15 w300' }
+
+    .mb30
+      = f.input :name,
+        label_html: { class: 'block fs15 mb10' },
+        error_html: { class: 'block fs15 mt10 mb10' },
+        input_html: { class: 'ptz--input pts--size-15 w300'}
+
+    div
+      = f.button :submit, 'Update User Data', class: 'ptz--btn ptz--size-15'
+

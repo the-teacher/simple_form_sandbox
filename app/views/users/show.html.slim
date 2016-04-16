@@ -2,7 +2,8 @@
 
 .mb70
   .fs25.mb30 User Info
-  .fs20= @user.name
+  .fs20.mb30= @user.name
+  .fs15= link_to "Edit user's comments", [:edit, @user]
 
 .fs25.mb40 Comments
 
