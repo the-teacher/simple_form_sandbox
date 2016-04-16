@@ -16,8 +16,11 @@ gem 'jbuilder', '~> 2.0'
 gem 'slim-rails'
 gem 'simple_form'
 
+gem 'ffaker'
+
 group :development, :test do
   gem 'byebug'
+  gem 'pry-rails'
 end
 
 group :development do
